@@ -1,0 +1,16 @@
+console.log("There was a time");
+console.log("I used to look into my father's eyes.");
+console.log("In a happy home");
+console.log("I was a king, I had a golden throne.");
+console.log("Those days are gone,");
+console.log("Now the memory's on the wall.");
+console.log("I hear the songs");
+console.log("From the places where I was born");
+console.log("Upon a hill across a blue lake,");
+console.log("That's where I had my first heartbreak.");
+console.log("I still remember how it all changed.");
+console.log("My father said,");
+console.log("Don't you worry, don't you worry, child.");
+console.log("See heaven's got a plan for you.");
+console.log("Don't you worry, don't you worry now.");
+console.log("Yeah!");
