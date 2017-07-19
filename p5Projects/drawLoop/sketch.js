@@ -8,30 +8,37 @@ function setup(){
 //}
 
 var x = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
-var sentence = ("How you doing Dude")
-var typed = ("")
-var Score = 0
-
-function draw(){
+var sentence = ["dude","dog","hello"];
+var typed = "";
+var Score = 0;
+var i = 0;
+function draw() {
     background(0,255,239);
     fill(233, 125, 12);
     textSize(16);
-    text(sentence, 155, 120);
-    textSize(20)
-    text("Score:", 40, 250)
-    textSize(20)
-    text(Score, 105, 250)
-    textSize(16)
-    text("Write Here:", 50, 190)
+    text(sentence[i], 155, 120);
+    textSize(20);
+    text("Score:", 40, 250);
+    textSize(20);
+    text(Score, 105, 250);
+    textSize(16);
+    text("Write Here:" + typed, 50, 190);
 }
 
-function keyTyped() {
-  console.log(typed);
+function keyTyped(){
   typed = typed + key;
-  if(typed == sentence){
-    Score = Score + 1
+  if(typed == sentence[i] ){
+    i++;
+    text(sentence[i], 155, 120);
+    Score++;
+    typed="";
   }
 }
 
-
+// function keyPressed(){
+//   if (keyCode === ENTER){
+//   }
+//   console.log(sentence[i]);
+//   console.log(typed);
+// }
 
