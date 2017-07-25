@@ -1,0 +1,38 @@
+body {
+    background-image: url("assets/topper.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+p {
+    color: white;                
+}
+
+#top{
+color:white;
+}
+.Dove {
+    background-color: lightblue;
+    border: 5px dashed blue;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.mainContent {
+    border: 2px dashed red;
+}
+img {
+    width: 25%;
+    vertical-align: middle;
+}
+
+p {
+    display: inline-block;
+    width: 74%
+    vertical-align: middle;
+}
+

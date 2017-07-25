@@ -16,3 +16,4 @@ function randWord(){
     }   
     return word;   
 }
+//The loop will change the from the one by one text into the 5 letter text. Combines 5 letters together to signal the call. Once the call is created then the text may be activated to the code.
