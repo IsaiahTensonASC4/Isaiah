@@ -1,0 +1,20 @@
+ body{
+    margin: 0 auto;
+    background-image: url(http://cdn.wallpapersafari.com/79/80/x4sAEC.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 720px;
+    
+} 
+
+
+.img69{
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #34495E;
+    margin: 0 auto;
+    border-radius: 4px;
+    margin: 0 auto;
+    margin-top: 150px;
+}

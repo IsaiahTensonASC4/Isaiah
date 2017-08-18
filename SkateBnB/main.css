@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:Arial;
+}
+
+.nav {
+    margin-top: 0;
+    margin-bottom: 0;
+    position:fixed;
+    width: 100%;
+    background-color:(255,255,255, 0.8);
+    color: #ffffff;
+    list-style:none;
+    text-align:center;
+    padding: 20px 0 20px 0;
+}
+
+.nav > li {
+    float:right;
+    padding-right: 25px;
+    
+}
+    
+.nav > li > a {
+color:#cfcfcf;
+text-decoration: none;
+text-transform: lowercase;
+position: relative;
+}
+
+.nav > li > a:hover {
+    color: #79d1c4; 
+}
+
+.logo {
+    float: left;
+    margin-top: -10px;
+}
+
+img {
+    height: 42px;
+    width: 80px;
+}
+
+.nav > li > a::before {
+    content: "";
+    display: block;
+    height: 5px;
+    background-color: #79d1c4;
+    
+    position:absolute;
+    bottom: 210%;
+    width:0%;
+    
+    transition: all ease-in-out 250ms;
+}
+
+.nav > li > a:hover::before {
+    width:100%;
+}
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg-1 {
+    background-image: url('https://static.pexels.com/photos/4787/feet-hipster-longboard-skateboard.jpg');
+    min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url("https://static.pexels.com/photos/461611/pexels-photo-461611.jpeg");
+    min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url("https://static.pexels.com/photos/274973/pexels-photo-274973.jpeg");
+    min-height: 400px;
+}
+
+.bgimg-4 {
+    background-image: url("Me.jpg");
+    background-size: cover;
+    min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+
+
+
